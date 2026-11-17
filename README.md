@@ -1,1 +1,1 @@
-# ML-tbrucie-mammals
+# ML-mammalian-tbrucei Project
