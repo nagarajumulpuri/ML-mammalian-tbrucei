@@ -1,4 +1,4 @@
-# Project Title:- ## Machine Learning-Driven Discovery of Selective Inhibitors Against Trypanosoma brucei Calcium Channels
+# Project Title: - ## Machine Learning-Driven Discovery of Selective Inhibitors Against Trypanosoma brucei Calcium Channels
 
 ## Project Background and Motivation
 Trypanosoma brucei is a parasitic protozoan responsible for Nagana in cattle and human African trypanosomiasis (sleeping sickness) in humans. Existing treatments are limited by drug toxicity, the absence of an effective vaccine, and the emergence of drug resistance, highlighting the need for novel therapeutic targets. Voltage-gated calcium channels (VGCCs), which play important roles in cellular functions, represent an underexplored therapeutic target in parasitic organisms.
