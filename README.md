@@ -15,9 +15,19 @@ Model Evaluation: Evaluate predictive performance using appropriate metrics, inc
 Selectivity Prediction: Compare predicted binding affinities against parasite and human calcium channels to prioritize parasite-selective compounds.
 Future Validation: Apply molecular docking and molecular dynamics simulations to investigate prioritized compounds and their interactions with the target channels.
 
-# Description of Each Folder
-Random-Split-ML-All-Features : In this folder, training and test data are split randomly. It contains 3 subfolders based on input data. tbrucei-only-data uses only tbrucei data, mammalian-only-data uses only mammalian data and mammalian-tbrucei-data uses both data points.
-All methodology steps are same as described in the Methodology section.
+# Repository Structure
+## Random-Split-ML-All-Features
+This folder contains machine learning models developed using a random train-test splitting strategy, in which the dataset is randomly divided into training and test sets. It includes three subfolders based on the input data used:
+tbrucei-only-data: Models trained and evaluated using only T. brucei data.
+mammalian-only-data: Models trained and evaluated using only mammalian calcium channel data.
+mammalian-tbrucei-data: Models trained and evaluated using combined mammalian and T. brucei data.
+All data preprocessing, feature engineering, model development, hyperparameter optimization, and evaluation procedures follow the methodology described in the Methodology section.
 
-Scafold-Split-ML-All-Features : In this folder, training and test data are split based on scafold. It contains 3 subfolders based on input data. tbrucei-only-data uses only tbrucei data, mammalian-only-data uses only mammalian data and mammalian-tbrucei-data uses both data points.
-All methodology steps are same as described in the Methodology section.
+## Scaffold-Split-ML-All-Features
+This folder contains machine learning models developed using a scaffold-based train-test splitting strategy, in which compounds are divided based on their molecular scaffolds. This approach helps evaluate model generalizability to structurally distinct compounds and reduces the risk of overly optimistic performance estimates due to structural similarity between training and test sets.
+
+It includes three subfolders based on the input data used:
+tbrucei-only-data: Models trained and evaluated using only T. brucei data.
+mammalian-only-data: Models trained and evaluated using only mammalian calcium channel data.
+mammalian-tbrucei-data: Models trained and evaluated using combined mammalian and T. brucei data.
+All data preprocessing, feature engineering, model development, hyperparameter optimization, and evaluation procedures follow the methodology described in the Methodology section.
