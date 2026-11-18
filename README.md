@@ -16,4 +16,8 @@ Selectivity Prediction: Compare predicted binding affinities against parasite an
 Future Validation: Apply molecular docking and molecular dynamics simulations to investigate prioritized compounds and their interactions with the target channels.
 
 # Description of Each Folder
-RandomizesSearch
+Random-Split-ML-All-Features : In this folder, training and test data are split randomly. It contains 3 subfolders based on input data. tbrucei-only-data uses only tbrucei data, mammalian-only-data uses only mammalian data and mammalian-tbrucei-data uses both data points.
+All methodology steps are same as described in the Methodology section.
+
+Scafold-Split-ML-All-Features : In this folder, training and test data are split based on scafold. It contains 3 subfolders based on input data. tbrucei-only-data uses only tbrucei data, mammalian-only-data uses only mammalian data and mammalian-tbrucei-data uses both data points.
+All methodology steps are same as described in the Methodology section.
