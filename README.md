@@ -1,6 +1,6 @@
 # Project Title: Machine Learning-Driven Discovery of Selective Inhibitors Against Trypanosoma brucei Calcium Channels
 
-**## Project Background and Motivation **
+## Project Background and Motivation
 Trypanosoma brucei is a parasitic protozoan responsible for Nagana in cattle and human African trypanosomiasis (sleeping sickness) in humans. Existing treatments are limited by drug toxicity, the absence of an effective vaccine, and the emergence of drug resistance, highlighting the need for novel therapeutic targets. Voltage-gated calcium channels (VGCCs), which play important roles in cellular functions, represent an underexplored therapeutic target in parasitic organisms.
 
 ## Research Objectives
@@ -9,9 +9,9 @@ This project aims to develop machine learning models to identify compounds that 
 ## Methodology
 𝐃𝐚𝐭𝐚 𝐂𝐨𝐥𝐥𝐞𝐜𝐭𝐢𝐨𝐧: Compile compound structures and corresponding binding affinity data for parasite and human calcium channels. <br>
 𝐃𝐚𝐭𝐚 𝐏𝐫𝐞𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠: Perform data cleaning, molecular standardization, and feature preparation. <br>
-𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠: Generate molecular descriptors and molecular fingerprints using RDKit. <br>
+𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠: Generate molecular descriptors using RDKit. <br>
 𝐌𝐚𝐜𝐡𝐢𝐧𝐞 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠: Develop and optimize models, including Random Forest, XGBoost, Support Vector Regression (SVR), CatBoost, and LightGBM. <br> 
-𝐌𝐨𝐝𝐞𝐥 𝐄𝐯𝐚𝐥𝐮𝐚𝐭𝐢𝐨𝐧: Evaluate predictive performance using appropriate metrics, including ROC-AUC, PR-AUC, RMSE, MAE, and R², depending on the prediction task. <br>
+𝐌𝐨𝐝𝐞𝐥 𝐄𝐯𝐚𝐥𝐮𝐚𝐭𝐢𝐨𝐧: Evaluate predictive performance using appropriate metrics, including RMSE, MAE, R², Pearson_r, Spearman_rho, and Spearman_p. <br>
 𝐒𝐞𝐥𝐞𝐜𝐭𝐢𝐯𝐢𝐭𝐲 𝐏𝐫𝐞𝐝𝐢𝐜𝐭𝐢𝐨𝐧: Compare predicted binding affinities against parasite and human calcium channels to prioritize parasite-selective compounds. <br>
 𝐅𝐮𝐭𝐮𝐫𝐞 𝐕𝐚𝐥𝐢𝐝𝐚𝐭𝐢𝐨𝐧: Apply molecular docking and molecular dynamics simulations to investigate prioritized compounds and their interactions with the target channels. <br>
 
